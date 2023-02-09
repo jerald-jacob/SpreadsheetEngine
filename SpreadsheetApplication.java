@@ -4,6 +4,7 @@ public class SpreadsheetApplication {
         sheet.setCellValue("A1", 13);
         sheet.setCellValue("A2", 14);
         sheet.setCellValue("A3", "=A1+A2");
-        System.out.println(sheet.getCellValue("A3"));
+        sheet.setCellValue("A4", "=A1+A2+A3");
+        System.out.println(sheet.getCellValue("A4"));
     }
 }
